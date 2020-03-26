@@ -1,0 +1,111 @@
+@{
+ViewData["Title"] = "Register Car";
+}
+
+<h1>Register New Car Here</h1>
+
+
+<div class="form">
+    <div class="form-group row">
+        <label for="txtMake" class="col-4 col-form-label">Make</label>
+        <div class="col-8">
+            <input id="txtMake" name="txtMake" type="text" class="form-control">
+        </div>
+
+    </div>
+
+
+    <div class="form-group row">
+        <label for="txtModel" class="col-4 col-form-label">Model</label>
+        <div class="col-8">
+            <input id="txtModel" name="txtModel" type="text" class="form-control">
+        </div>
+
+    </div>
+
+
+    <div class="form-group row">
+        <label for="txtYear" class="col-4 col-form-label">Year</label>
+        <div class="col-8">
+            <input id="txtYear" name="txtYear" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label for="txtDailyPrice" class="col-4 col-form-label">DailyPrice</label>
+        <div class="col-8">
+            <input id="txtPrice" name="txtPrice" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label for="txtCyls" class="col-4 col-form-label">Cylinder</label>
+        <div class="col-8">
+            <input id="txtCyls" name="txtCyls" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label for="txtPassengers" class="col-4 col-form-label">Passaengers</label>
+        <div class="col-8">
+            <input id="txtPassengers" name="txtPassengers" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label for="txtType" class="col-4 col-form-label">Type</label>
+        <div class="col-8">
+            <input id="txtType" name="txtType" type="text" class="form-control">
+        </div>
+
+    </div>
+
+
+
+    <div class="form-group row">
+        <label for="txtImageUrl" class="col-4 col-form-label">Image</label>
+        <div class="col-8">
+            <input id="txtImageUrl" name="txtImageUrl" type="text" class="form-control">
+        </div>
+
+    </div>
+
+
+    <div class="form-group row">
+        <label for="txtDescription" class="col-4 col-form-label">Description</label>
+        <div class="col-8">
+            <input id="txtDescription" name="txtDescription" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row">
+        <label for="txtMake" class="col-4 col-form-label">FuelType</label>
+        <div class="col-8">
+            <input id="txtFuelType" name="txtFuelType" type="text" class="form-control">
+        </div>
+
+    </div>
+
+    <div class="form-group row"></div>
+    <div class="col-8">
+
+        <button id="btnSave" name="submit" type="button" class="btn btn-primary">Submit</button>
+
+    </div>
+
+</div>
+</div>
+
+
+@section Scripts{
+<script src="/js/catalog/register.js"></script>
+}
+
+@section Styles{
+<link rel="stylesheet" href="/css/register.css">
+}
